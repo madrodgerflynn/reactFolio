@@ -1,0 +1,14 @@
+@import "../../utils/colors.css";
+h1 {
+  display: flex;
+  align-self: center;
+  padding-left: 30rem;
+  width: 50%;
+  height: auto;
+  border: 7px inset rgb(77, 73, 73);
+  background-color: var(--buff);
+}
+p {
+  display: flex;
+  padding: 1rem;
+}
