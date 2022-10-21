@@ -2,13 +2,13 @@ import React from "react";
 // import Container from "react-bootstrap/Container";
 // import Nav from "react-bootstrap/Nav";
 // import Navbar from "react-bootstrap/Navbar";
-
+import "./NavBar.css";
 import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
     <>
-      <div bg="dark" variant="dark">
+      <div className="navBar-container">
         <div className="navbar">
           <Link to={{ pathname: "/Bio" }}>About Me</Link>
           <Link to={{ pathname: "/MyShtuff" }}>My Shtuff</Link>

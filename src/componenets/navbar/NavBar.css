@@ -1,1 +1,9 @@
 @import "../../utils/colors.css";
+
+.navBar-container {
+  background-color: var(--buff);
+}
+.navbar {
+  border: 7px groove var(--space);
+  justify-items: flex-start;
+}

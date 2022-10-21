@@ -17,18 +17,20 @@ h1 {
   font-family: "Press Start 2P", cursive;
   font-size: larger;
   padding: 1rem;
+  margin: 3rem;
 }
 .bioContainer {
   display: flex;
   width: 60%;
   height: 30%;
   padding: 2rem;
+  margin: 4rem;
   border: 7px inset var(--space);
   /* background-color: var(--mandarin); */
   font-family: "Play", sans-serif;
   background-color: var(--buff);
 }
-.navbar {
+/* .navbar {
   display: flex;
   border: 7px inset rgb(77, 73, 73);
-}
+} */
