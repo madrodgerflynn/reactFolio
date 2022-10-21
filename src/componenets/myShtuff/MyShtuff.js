@@ -2,15 +2,8 @@ import React, { useState } from "react";
 import "./MyShtuff.css";
 
 function MyShtuff() {
-  const cardStyles = {
-    body: {
-      display: "flex",
-      justifyContent: "center",
-      alignItems: "center",
-    },
-  };
   return (
-    <div className="card" style={cardStyles.body}>
+    <div className="card">
       {/* <img className="card-img-top" src="..." alt="Card image cap"></img> */}
       <div className="card-body">
         <h5 className="card-title">Card title</h5>
