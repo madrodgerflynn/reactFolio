@@ -3,10 +3,7 @@
 /* body {
   background-image: linear-gradient (var(--blue) 1%, var(--lilac) 75%);
 } */
-body {
-  background-image: linear-gradient(var(--blue) 1%, var(--lilac) 75%);
-  min-height: 100vh;
-}
+
 h1 {
   display: flex;
   justify-content: center;
