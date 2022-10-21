@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <>
       <div bg="dark" variant="dark">
-        <div className="me-auto text-center">
+        <div className="navbar">
           <Link to={{ pathname: "/Bio" }}>Home</Link>
           <Link to={{ pathname: "/MyShtuff" }}>My Shtuff</Link>
           <Link to={{ pathname: "/Contact" }}>Contact Me</Link>
