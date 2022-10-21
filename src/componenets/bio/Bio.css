@@ -1,16 +1,19 @@
 @import "../../utils/colors.css";
 h1 {
   display: flex;
-  align-self: center;
-  padding-left: 25rem;
-  width: 25%;
+  /* align-self: center; */
+  /* padding-left: 2rem; */
+  align-items: center;
+  width: 65%;
   height: auto;
   border: 7px inset rgb(77, 73, 73);
   background-color: var(--buff);
 }
 .bioContainer {
   display: flex;
-  flex-direction: column;
+  width: 60%;
+  height: 30%;
+  padding-left: 2rem;
 }
 .navbar {
   display: flex;

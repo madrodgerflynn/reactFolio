@@ -10,7 +10,7 @@ function NavBar() {
     <>
       <div bg="dark" variant="dark">
         <div className="navbar">
-          <Link to={{ pathname: "/Bio" }}>Home</Link>
+          <Link to={{ pathname: "/Bio" }}>About Me</Link>
           <Link to={{ pathname: "/MyShtuff" }}>My Shtuff</Link>
           <Link to={{ pathname: "/Contact" }}>Contact Me</Link>
         </div>
