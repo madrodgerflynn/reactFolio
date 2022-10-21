@@ -2,8 +2,11 @@
 
 .navBar-container {
   background-color: var(--buff);
+  display: flex;
+  justify-content: flex-end;
 }
 .navbar {
+  display: flex;
   border: 7px groove var(--space);
-  justify-items: flex-start;
+  align-content: space-between;
 }
