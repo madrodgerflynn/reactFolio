@@ -1,19 +1,32 @@
 @import "../../utils/colors.css";
+
+/* body {
+  background-image: linear-gradient (var(--blue) 1%, var(--lilac) 75%);
+} */
+body {
+  background-image: linear-gradient(var(--blue) 1%, var(--lilac) 75%);
+}
 h1 {
   display: flex;
-  /* align-self: center; */
-  /* padding-left: 2rem; */
   align-items: center;
+  text-indent: unset;
   width: 65%;
-  height: auto;
-  border: 7px inset rgb(77, 73, 73);
+  height: 25px;
+  border: 7px inset var(--space);
   background-color: var(--buff);
+  font-family: "Press Start 2P", cursive;
+  font-size: larger;
+  padding: 1rem;
 }
 .bioContainer {
   display: flex;
   width: 60%;
   height: 30%;
-  padding-left: 2rem;
+  padding: 2rem;
+  border: 7px inset var(--space);
+  /* background-color: var(--mandarin); */
+  font-family: "Play", sans-serif;
+  background-color: var(--buff);
 }
 .navbar {
   display: flex;

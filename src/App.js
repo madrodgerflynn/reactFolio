@@ -1,4 +1,4 @@
-import NavBar from "./componenets/NavBar";
+import NavBar from "./componenets/navbar/NavBar";
 import Bio from "./componenets/bio/Bio";
 // import Contact from "./componenets/Contact";
 import MyShtuff from "./componenets/myShtuff/MyShtuff";
