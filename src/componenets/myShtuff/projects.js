@@ -18,7 +18,7 @@ const projects = [
     gitHub: "https://github.com/madrodgerflynn/Kiss_The_Cook",
   },
   {
-    index: 3,
+    index: 2,
     alt: "An application for users to track firends, their thoughts and reactions.",
     title: "The API Social Network",
   },
