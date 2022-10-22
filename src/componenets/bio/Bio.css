@@ -26,9 +26,33 @@ h1 {
   /* background-color: var(--mandarin); */
   font-family: "Play", sans-serif;
   font-weight: 300;
-  background-color: var(--buff);
+  color: var(--mandarin);
+  background-color: var(--black);
 }
 /* .navbar {
   display: flex;
   border: 7px inset rgb(77, 73, 73);
 } */
+/* @keyframes textShadow {
+  0% {
+    text-shadow: 0.4389924193300864px 0 1px rgba(0, 30, 255, 0.5),
+      -0.4389924193300864px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+  }
+  5% {
+    text-shadow: 2.7928974010788217px 0 1px rgba(0, 30, 255, 0.5),
+      -2.7928974010788217px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
+  }
+} */
+p::after {
+  content: "";
+  width: 5px;
+  height: 12px;
+  background: var(--mandarin);
+  display: inline-block;
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}

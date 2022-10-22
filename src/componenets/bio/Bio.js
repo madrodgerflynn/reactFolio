@@ -8,7 +8,7 @@ export default function Bio() {
 
       <div className="bioDescription">
         <div className="bioContainer">
-          <p>
+          <p className="bioText">
             My name is Tyler Anderson and have always had an interest in all
             things computer related. I attempted to study computer science once
             I was in college, but got distracted by another subject, and
@@ -17,7 +17,7 @@ export default function Bio() {
             Again I was given the chance to code and really enjoyed it. It
             wasn't until many years and a couple jobs later that I again was
             given an oppourtunity to code. I jumped into it head on with the DU
-            Cooding Bootcamp, and haven't looked back!
+            Cooding Bootcamp, and haven't looked back
           </p>
         </div>
       </div>
