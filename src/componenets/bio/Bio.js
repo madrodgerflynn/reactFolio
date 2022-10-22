@@ -2,13 +2,14 @@ import React from "react";
 import "./Bio.css";
 
 export default function Bio() {
+  // new TypeIt("#bioText");
   return (
     <div className="body">
       <h1>Welcome to my portfolio!</h1>
 
       <div className="bioDescription">
         <div className="bioContainer">
-          <p className="bioText">
+          <p id="bioText">
             My name is Tyler Anderson and have always had an interest in all
             things computer related. I attempted to study computer science once
             I was in college, but got distracted by another subject, and

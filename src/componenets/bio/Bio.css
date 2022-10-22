@@ -43,6 +43,7 @@ h1 {
       -2.7928974010788217px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
   }
 } */
+/* This adds a blinking cursor after the text in the bio */
 p::after {
   content: "";
   width: 5px;
