@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./MyShtuff.css";
 import projects from "./projects";
+import TypeIt from "typeit-react";
 
 function MyShtuff() {
   const [project, setProject] = useState(projects[0]);
@@ -25,8 +26,19 @@ function MyShtuff() {
     <div className="card">
       {/* <img className="card-img-top" src="..." alt="Card image cap"></img> */}
       <div className="card-body">
-        <h5 className="card-title">{project.title}</h5>
-        <p className="card-text">{project.description} </p>
+        <TypeIt
+          options={{
+            speed: 60,
+          }}
+          element={"h5"}
+        >
+          {project.title}
+        </TypeIt>
+        <p>
+          <TypeIt options={{ pause: 100, speed: 60 }} element={"p"}>
+            {project.description}{" "}
+          </TypeIt>
+        </p>
         <a className="projectLinks" target="_blank" href={project.appLink}>
           Go somewhere
         </a>

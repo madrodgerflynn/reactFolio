@@ -17,8 +17,9 @@ h1 {
   margin: 3rem;
 }
 .bioContainer {
-  display: flex;
-  position: absolute;
+  box-sizing: inherit;
+
+  position: static;
   width: 60%;
   height: 40%;
   padding: 2rem;

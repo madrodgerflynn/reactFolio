@@ -1,17 +1,19 @@
 @import "../../utils/colors.css";
 
-.navBar-container {
+/* .navBar-container {
   background-color: var(--buff);
   display: flex;
-  justify-content: space-evenly;
-}
+  justify-content: flex-end;
+  width: 50%;
+} */
 .navbar {
   display: flex;
-  width: 35%;
-  height: 35%;
+  width: 40rem;
+  height: auto;
   border: 7px groove var(--space);
   justify-content: space-between;
   font-family: "Press Start 2P", cursive;
+  background-color: var(--buff);
 }
 a {
   text-decoration: none;
