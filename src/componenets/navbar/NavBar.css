@@ -3,7 +3,7 @@
 .navBar-container {
   background-color: var(--buff);
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
 }
 .navbar {
   display: flex;

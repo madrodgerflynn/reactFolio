@@ -18,8 +18,9 @@ h1 {
 }
 .bioContainer {
   display: flex;
+  position: absolute;
   width: 60%;
-  height: 30%;
+  height: 40%;
   padding: 2rem;
   margin: 4rem;
   border: 7px inset var(--space);
@@ -28,6 +29,7 @@ h1 {
   font-weight: 300;
   color: var(--mandarin);
   background-color: var(--black);
+  border-radius: 15%;
 }
 /* .navbar {
   display: flex;
@@ -44,16 +46,16 @@ h1 {
   }
 } */
 /* This adds a blinking cursor after the text in the bio */
-p::after {
+/* p::after {
   content: "";
   width: 5px;
   height: 12px;
   background: var(--mandarin);
   display: inline-block;
-  animation: cursor-blink 1.5s steps(2) infinite;
+  animation: cursor-blink 1.15s steps(2) infinite;
 }
 @keyframes cursor-blink {
   0% {
     opacity: 0;
   }
-}
+} */

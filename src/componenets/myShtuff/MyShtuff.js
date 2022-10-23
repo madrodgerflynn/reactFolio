@@ -7,7 +7,7 @@ function MyShtuff() {
 
   const displayNextProject = () => {
     if (project.index < projects.length - 1) {
-      setProject(prejects[project.index + 1]);
+      setProject(projects[project.index + 1]);
       return;
     } else {
       setProject(projects[0]);
@@ -24,15 +24,17 @@ function MyShtuff() {
   return (
     <div className="card">
       {/* <img className="card-img-top" src="..." alt="Card image cap"></img> */}
-      <button className="galleryBtn" onClick={displayPreviousProject}>
-        <i className="fa-solid fa-arrow-left"></i>
-      </button>
       <div className="card-body">
         <h5 className="card-title">{project.title}</h5>
         <p className="card-text">{project.description} </p>
         <a className="projectLinks" target="_blank" href={project.appLink}>
           Go somewhere
         </a>
+      </div>
+      <div className="buttonLocation">
+        <button className="galleryBtn" onClick={displayPreviousProject}>
+          <i className="fa-solid fa-arrow-left"></i>
+        </button>
       </div>
     </div>
   );
