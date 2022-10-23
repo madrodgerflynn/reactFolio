@@ -225,5 +225,5 @@ code {
   border-radius: 8%;
 }
 .insideScreen {
-  border: 8px solid black;
+  border: 8px inherit black;
 }

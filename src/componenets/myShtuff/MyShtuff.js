@@ -26,28 +26,47 @@ function MyShtuff() {
     <div className="card">
       {/* <img className="card-img-top" src="..." alt="Card image cap"></img> */}
       <div className="card-body">
-        <TypeIt
+        {/* <TypeIt
           options={{
             speed: 60,
           }}
           element={"h5"}
         >
           {project.title}
-        </TypeIt>
+        </TypeIt> */}
         <p>
-          <TypeIt options={{ pause: 100, speed: 60 }} element={"p"}>
-            {project.description}{" "}
-          </TypeIt>
+          <TypeIt
+            getBeforeInit={(instance) => {
+              instance
+                .pause(500)
+                .type(project.title)
+                .break()
+                .pause(500)
+                .break()
+                .pause(1500)
+                .type(project.description)
+                .break()
+                .pause(700)
+                .type("Want to see it?");
+              return instance;
+            }}
+            element={"p"}
+          ></TypeIt>
         </p>
-        <a className="projectLinks" target="_blank" href={project.appLink}>
+        <a
+          className="projectLinks"
+          target="_blank"
+          rel="noreferrer"
+          href={project.appLink}
+        >
           Go somewhere
         </a>
-      </div>
-      <div className="buttonLocation">
-        <button className="galleryBtn" onClick={displayPreviousProject}>
-          <i className="fa-solid fa-arrow-left"></i>
+        <button className="galleryBtn" onClick={displayNextProject}>
+          {/* <i className="fa-solid fa-arrow-left"></i> */}
         </button>
       </div>
+      {/* <div className="buttonLocation"> */}
+      {/* </div> */}
     </div>
   );
 }

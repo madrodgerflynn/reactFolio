@@ -20,6 +20,8 @@
   width: 75px;
   background-color: var(--lilac);
 }
-.buttonLocation {
+/* .buttonLocation {
   display: flex;
-}
+  position: static;
+  right: 100;
+} */
