@@ -16,12 +16,17 @@
   border-radius: 15%;
 }
 .galleryBtn {
-  height: 15%;
+  height: 25px;
   width: 75px;
   background-color: var(--lilac);
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 10px;
 }
-/* .buttonLocation {
-  display: flex;
-  position: static;
-  right: 100;
-} */
+.projectLinks {
+  position: absolute;
+  right: 20;
+  bottom: 10;
+  color: var(--red);
+}

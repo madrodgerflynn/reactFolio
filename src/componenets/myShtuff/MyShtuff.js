@@ -15,25 +15,19 @@ function MyShtuff() {
       return;
     }
   };
-  const displayPreviousProject = () => {
-    if (project.index > 0) {
-      setProject(projects[project.index - 1]);
-    } else {
-      setProject(projects[projects.length - 1]);
-    }
-  };
+  console.log(projects);
+  // const displayPreviousProject = () => {
+  //   if (project.index > 0) {
+  //     setProject(projects[project.index - 1]);
+  //   } else {
+  //     setProject(projects[projects.length - 1]);
+  //   }
+  // };
   return (
     <div className="card">
       {/* <img className="card-img-top" src="..." alt="Card image cap"></img> */}
       <div className="card-body">
-        {/* <TypeIt
-          options={{
-            speed: 60,
-          }}
-          element={"h5"}
-        >
-          {project.title}
-        </TypeIt> */}
+        {/* This makes it look like someone is typing the text */}
         <p>
           <TypeIt
             getBeforeInit={(instance) => {
@@ -53,15 +47,17 @@ function MyShtuff() {
             element={"p"}
           ></TypeIt>
         </p>
+
         <a
           className="projectLinks"
           target="_blank"
           rel="noreferrer"
           href={project.appLink}
         >
-          Go somewhere
+          Click Me
         </a>
         <button className="galleryBtn" onClick={displayNextProject}>
+          Next Project
           {/* <i className="fa-solid fa-arrow-left"></i> */}
         </button>
       </div>
