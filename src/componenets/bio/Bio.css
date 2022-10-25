@@ -1,24 +1,21 @@
 @import "../../utils/colors.css";
 
-/* h1 {
+h1 {
   display: flex;
-  justify-content: center;
-  width: 65%;
-  height: 25px;
-  border: 7px inset var(--space);
-  background-color: var(--buff);
-  font-family: "Press Start 2P", cursive;
-  font-size: larger;
-  padding: 1rem;
-  margin: 3rem;
-} */
+  height: fit-content;
+}
+.textWindow {
+  display: flex;
+  height: fit-content;
+  top: 30%;
+}
 .bioContainer {
   display: flex;
   position: absolute;
   width: 85%;
   height: 70%;
   padding: 2rem;
-  margin: 4rem;
+  /* margin: 4rem; */
   border: 7px inset var(--space);
   /* background-color: var(--mandarin); */
   font-family: "Play", sans-serif;
@@ -26,6 +23,7 @@
   color: var(--mandarin);
   background-color: var(--black);
   border-radius: 15%;
+  align-items: center;
 }
 /* .navbar {
   display: flex;

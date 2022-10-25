@@ -33,7 +33,6 @@ function MyShtuff() {
       <div className="card-body">
         {/* This makes it look like someone is typing the text */}
         <p>
-          hello world
           <TypeIt
             getBeforeInit={(instance) => {
               instance
