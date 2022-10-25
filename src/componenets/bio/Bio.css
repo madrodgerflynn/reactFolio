@@ -10,7 +10,7 @@ h1 {
   top: 30%;
 }
 .bioContainer {
-  display: flex;
+  display: row;
   position: absolute;
   width: 85%;
   height: 70%;
