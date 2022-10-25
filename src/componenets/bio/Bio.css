@@ -1,10 +1,6 @@
 @import "../../utils/colors.css";
 
-/* body {
-  background-image: linear-gradient (var(--blue) 1%, var(--lilac) 75%);
-} */
-
-h1 {
+/* h1 {
   display: flex;
   justify-content: center;
   width: 65%;
@@ -15,13 +11,12 @@ h1 {
   font-size: larger;
   padding: 1rem;
   margin: 3rem;
-}
+} */
 .bioContainer {
-  box-sizing: inherit;
-
-  position: static;
-  width: 60%;
-  height: 40%;
+  display: flex;
+  position: absolute;
+  width: 85%;
+  height: 70%;
   padding: 2rem;
   margin: 4rem;
   border: 7px inset var(--space);

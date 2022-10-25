@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -14,6 +13,10 @@ html {
   box-sizing: border-box;
   background-color: black;
 }
+/* .insideScreen {
+  width: 85%;
+  height: 65%;
+} */
 /* #root {
   content: " ";
   display: block;
@@ -221,8 +224,8 @@ code {
 }
 .crt {
   animation: textShadow 1.6s infinite;
-  border: 10px groove var(--black);
-  border-radius: 8%;
+  /* border: 10px groove var(--black);
+  border-radius: 8%; */
 }
 .insideScreen {
   border: 8px inherit black;

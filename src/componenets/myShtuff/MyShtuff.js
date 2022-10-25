@@ -6,8 +6,12 @@ import TypeIt from "typeit-react";
 function MyShtuff() {
   const [project, setProject] = useState(projects[0]);
 
+  const deets = project.description;
+  const projectName = project.title;
   const displayNextProject = () => {
+    //if not at end of array
     if (project.index < projects.length - 1) {
+      //move to next array number
       setProject(projects[project.index + 1]);
       return;
     } else {
@@ -29,16 +33,17 @@ function MyShtuff() {
       <div className="card-body">
         {/* This makes it look like someone is typing the text */}
         <p>
+          hello world
           <TypeIt
             getBeforeInit={(instance) => {
               instance
                 .pause(500)
-                .type(project.title)
+                .type(projectName)
                 .break()
                 .pause(500)
                 .break()
                 .pause(1500)
-                .type(project.description)
+                .type(deets)
                 .break()
                 .pause(700)
                 .type("Want to see it?");
