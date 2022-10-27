@@ -20,13 +20,7 @@ function MyShtuff() {
     }
   };
   console.log(projects);
-  // const displayPreviousProject = () => {
-  //   if (project.index > 0) {
-  //     setProject(projects[project.index - 1]);
-  //   } else {
-  //     setProject(projects[projects.length - 1]);
-  //   }
-  // };
+
   return (
     <div className="card">
       {/* <img className="card-img-top" src="..." alt="Card image cap"></img> */}
