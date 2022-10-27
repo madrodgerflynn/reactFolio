@@ -53,9 +53,12 @@ function MyShtuff() {
         </p>
 
         <a
+          style={{
+            top: "75%",
+          }}
           className="projectLinks"
           target="_blank"
-          rel="noreferrer"
+          // rel="noreferrer"
           href={project.appLink}
         >
           Click Me
