@@ -1,6 +1,6 @@
 import NavBar from "./componenets/navbar/NavBar";
 import Bio from "./componenets/bio/Bio";
-// import Contact from "./componenets/Contact";
+import Contact from "./componenets/contact/Contact";
 import MyShtuff from "./componenets/myShtuff/MyShtuff";
 // import Footer from "./componenets/Footer";
 
@@ -15,10 +15,12 @@ function App() {
       <NavBar />
 
       <Routes>
+        <Route path="/" element={<Bio />} />
         <Route path="/Bio" element={<Bio />} />
-        {/* <Route path="/Contact" element={<Contact />} /> */}
+        <Route path="/Contact" element={<Contact />} />
         <Route path="/MyShtuff" element={<MyShtuff />} />
       </Routes>
+
       {/* <Footer /> */}
     </Router>
   );

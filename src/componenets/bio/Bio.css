@@ -10,12 +10,12 @@ h1 {
   top: 30%;
 }
 .bioContainer {
-  display: row;
-  position: absolute;
-  width: 85%;
-  height: 70%;
+  /* display: row; */
+  /* position: absolute; */
+  width: 90vw;
+  height: 70vh;
   padding: 2rem;
-  /* margin: 4rem; */
+  margin: 4rem;
   border: 7px inset var(--space);
   /* background-color: var(--mandarin); */
   font-family: "Play", sans-serif;
@@ -25,34 +25,3 @@ h1 {
   border-radius: 15%;
   align-items: center;
 }
-/* .projectLinks {
-  top: 40%;
-} */
-/* .navbar {
-  display: flex;
-  border: 7px inset rgb(77, 73, 73);
-} */
-/* @keyframes textShadow {
-  0% {
-    text-shadow: 0.4389924193300864px 0 1px rgba(0, 30, 255, 0.5),
-      -0.4389924193300864px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
-  }
-  5% {
-    text-shadow: 2.7928974010788217px 0 1px rgba(0, 30, 255, 0.5),
-      -2.7928974010788217px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
-  }
-} */
-/* This adds a blinking cursor after the text in the bio */
-/* p::after {
-  content: "";
-  width: 5px;
-  height: 12px;
-  background: var(--mandarin);
-  display: inline-block;
-  animation: cursor-blink 1.15s steps(2) infinite;
-}
-@keyframes cursor-blink {
-  0% {
-    opacity: 0;
-  }
-} */

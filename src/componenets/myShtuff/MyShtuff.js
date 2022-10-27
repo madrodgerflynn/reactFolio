@@ -1,13 +1,11 @@
 import React, { useState } from "react";
 import "./MyShtuff.css";
 import projects from "./projects";
-import TypeIt from "typeit-react";
+// import TypeIt from "typeit-react";
 
 function MyShtuff() {
   const [project, setProject] = useState(projects[0]);
 
-  const deets = project.description;
-  const projectName = project.title;
   const displayNextProject = () => {
     //if not at end of array
     if (project.index < projects.length - 1) {
@@ -19,51 +17,61 @@ function MyShtuff() {
       return;
     }
   };
-  console.log(projects);
+  console.log(project);
 
   return (
-    <div className="card">
-      {/* <img className="card-img-top" src="..." alt="Card image cap"></img> */}
-      <div className="card-body">
-        {/* This makes it look like someone is typing the text */}
-        <p>
-          <TypeIt
+    <div className="stuffContainer">
+      <div className="card">
+        {/* <img className="card-img-top" src="..." alt="Card image cap"></img> */}
+        <div className="card-body">
+          {/* This makes it look like someone is typing the text */}
+
+          <p style={{ display: "block" }}>
+            {/* <TypeIt> */}
+            {project.title}
+            {/* </TypeIt> */}
+          </p>
+
+          {/* <TypeIt> */}
+          <p>{project.description}</p>
+          {/* </TypeIt> */}
+          {/* <TypeIt
             getBeforeInit={(instance) => {
               instance
                 .pause(500)
-                .type(projectName)
+                .type(project.title)
                 .break()
                 .pause(500)
                 .break()
                 .pause(1500)
-                .type(deets)
+                .type(project.description)
                 .break()
                 .pause(700)
                 .type("Want to see it?");
               return instance;
             }}
             element={"p"}
-          ></TypeIt>
-        </p>
+          ></TypeIt> */}
 
-        <a
-          style={{
-            top: "75%",
-          }}
-          className="projectLinks"
-          target="_blank"
-          // rel="noreferrer"
-          href={project.appLink}
-        >
-          Click Me
-        </a>
-        <button className="galleryBtn" onClick={displayNextProject}>
-          Next Project
-          {/* <i className="fa-solid fa-arrow-left"></i> */}
-        </button>
+          <a
+            style={{
+              top: "75%",
+            }}
+            className="projectLinks"
+            target="_blank"
+            // rel="noreferrer"
+            href={project.appLink}
+          >
+            Click Me
+          </a>
+          <button className="galleryBtn" onClick={displayNextProject}>
+            Next Project
+            {/* <i className="fa-solid fa-arrow-left"></i> */}
+          </button>
+        </div>
+        {/* <div className="buttonLocation"> */}
+        {/* </div> */}
       </div>
-      {/* <div className="buttonLocation"> */}
-      {/* </div> */}
     </div>
   );
 }

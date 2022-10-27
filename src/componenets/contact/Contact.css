@@ -1,1 +1,54 @@
 @import "../../utils/colors.css";
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: 70vh;
+  padding: 2rem;
+  margin: 4rem;
+  border: 7px inset var(--space);
+  /* background-color: var(--mandarin); */
+  font-family: "Play", sans-serif;
+  font-weight: 300;
+  color: var(--mandarin);
+  background-color: var(--black);
+  border-radius: 15%;
+  align-items: center;
+}
+
+.messageInput {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+}
+.messageTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nameInput {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 30rem;
+}
+.emailInput {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 30rem;
+}
+
+.fullName {
+  color: var(--mandarin);
+  background-color: var(--black);
+  /* box-shadow: 0.5rem; */
+}
+.fullName::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: var(--mandarin);
+}

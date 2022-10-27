@@ -2,11 +2,11 @@
 
 .card {
   display: flex;
-  position: absolute;
-  width: 85%;
-  height: 70%;
+  /* position: absolute; */
+  width: 90vw;
+  height: 70vh;
   padding: 2rem;
-  /* margin: 4rem; */
+  margin: 4rem;
   border: 7px inset var(--space);
   /* background-color: var(--mandarin); */
   font-family: "Play", sans-serif;
@@ -14,6 +14,7 @@
   color: var(--mandarin);
   background-color: var(--black);
   border-radius: 15%;
+  align-items: center;
 }
 .galleryBtn {
   height: 25px;
@@ -29,4 +30,11 @@
   right: 20;
   bottom: 10;
   color: var(--red);
+}
+.stuffContainer {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
