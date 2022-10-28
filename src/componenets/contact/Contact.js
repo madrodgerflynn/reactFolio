@@ -3,9 +3,9 @@ import React, { useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 function Contact() {
-  let [senderName, setSenderName] = useState();
-  let [senderEmail, setSenderEmail] = useState();
-  let [message, setMessage] = useState();
+  let [senderName, setSenderName] = useState("");
+  let [senderEmail, setSenderEmail] = useState("");
+  let [message, setMessage] = useState("");
 
   function updateInputState(event) {
     switch (event.target.name) {
@@ -22,6 +22,7 @@ function Contact() {
   }
   function handleEvent(event) {
     event.preventDefault();
+    event.target.reset();
 
     let contactFormInputs = {
       sender_name: senderName,
@@ -71,7 +72,7 @@ function Contact() {
           </span>
           <textarea
             name="message"
-            className="form-control"
+            className="form-control message"
             onChange={updateInputState}
           ></textarea>
         </div>
