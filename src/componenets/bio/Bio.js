@@ -10,7 +10,7 @@ export default function Bio() {
         <TypeIt
           className="textWindow"
           options={{
-            speed: 60,
+            speed: 10,
             waitUntilVisible: true,
           }}
           element={"p"}

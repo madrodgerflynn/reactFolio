@@ -36,3 +36,6 @@
   align-items: center;
   width: 100vw;
 }
+.card-body {
+  margin-left: 6rem;
+}

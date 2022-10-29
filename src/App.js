@@ -2,7 +2,7 @@ import NavBar from "./componenets/navbar/NavBar";
 import Bio from "./componenets/bio/Bio";
 import Contact from "./componenets/contact/Contact";
 import MyShtuff from "./componenets/myShtuff/MyShtuff";
-// import Footer from "./componenets/Footer";
+import Footer from "./componenets/footer/Footer";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -21,7 +21,7 @@ function App() {
         <Route path="/MyShtuff" element={<MyShtuff />} />
       </Routes>
 
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }
