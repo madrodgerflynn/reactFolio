@@ -6,7 +6,10 @@
   align-items: center;
   width: 80vw;
   height: auto;
-  position: fixed;
-  bottom: 7.5rem;
-  left: 8rem;
+  position: relative;
+  bottom: -8.5rem;
+  color: var(--red);
+}
+i {
+  font-size: xx-large;
 }

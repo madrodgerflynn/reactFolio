@@ -11,7 +11,7 @@ h1 {
 }
 .bioContainer {
   /* display: row; */
-  /* position: absolute; */
+  position: absolute;
   width: 90vw;
   height: 70vh;
   padding: 2rem;
@@ -19,7 +19,7 @@ h1 {
   border: 7px inset var(--space);
   /* background-color: var(--mandarin); */
   font-family: "Play", sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   color: var(--mandarin);
   background-color: var(--black);
   border-radius: 15%;

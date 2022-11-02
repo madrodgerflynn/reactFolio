@@ -1,6 +1,7 @@
 import React from "react";
 import "./Bio.css";
 import TypeIt from "typeit-react";
+import Footer from "../footer/Footer";
 
 export default function Bio() {
   return (
@@ -26,6 +27,7 @@ export default function Bio() {
           looked back
         </TypeIt>
       </div>
+      <Footer />
     </div>
   );
 }

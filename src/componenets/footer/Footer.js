@@ -4,14 +4,14 @@ function Footer() {
   return (
     <div className="footerContainer">
       <i className="devicon-html5-plain"></i>
-      <i class="devicon-jquery-plain"></i>
-      <i class="devicon-markdown-original"></i>
-      <i class="devicon-mysql-plain"></i>
-      <i class="devicon-mongodb-plain"></i>
-      <i class="devicon-bootstrap-plain"></i>
-      <i class="devicon-react-original"></i>
-      <i class="devicon-nodejs-plain"></i>
-      <i class="devicon-css3-plain"></i>
+      <i className="devicon-jquery-plain"></i>
+      <i className="devicon-markdown-original"></i>
+      <i className="devicon-mysql-plain"></i>
+      <i className="devicon-mongodb-plain"></i>
+      <i className="devicon-bootstrap-plain"></i>
+      <i className="devicon-react-original"></i>
+      <i className="devicon-nodejs-plain"></i>
+      <i className="devicon-css3-plain"></i>
     </div>
   );
 }

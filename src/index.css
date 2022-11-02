@@ -17,15 +17,16 @@ body {
   /* justify-content: center; */
   align-items: center;
   max-width: 100vw;
+  max-height: 100vh;
 }
 
 /* html {
   box-sizing: border-box;
   background-color: black;
 } */
-#root {
+/* #root {
   width: 100vw;
-}
+} */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -194,6 +195,7 @@ code {
   z-index: 2;
   pointer-events: none;
   animation: flicker 0.15s infinite;
+  height: 100vh;
 }
 .crt::before {
   content: " ";
@@ -213,9 +215,15 @@ code {
   z-index: 2;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
+  height: 100vh;
 }
 .crt {
   animation: textShadow 1.6s infinite;
   /* border: 10px groove var(--black);
   border-radius: 8%; */
+}
+@media screen and (max-width: 992px) {
+  #root {
+    width: 50rem;
+  }
 }
