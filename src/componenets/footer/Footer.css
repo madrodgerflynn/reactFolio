@@ -5,4 +5,8 @@
   justify-content: space-around;
   align-items: center;
   width: 80vw;
+  height: auto;
+  position: fixed;
+  bottom: 7.5rem;
+  left: 8rem;
 }

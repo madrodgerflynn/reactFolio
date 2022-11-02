@@ -19,8 +19,11 @@ const projects = [
   },
   {
     index: 2,
-    alt: "An application for users to track firends, their thoughts and reactions.",
-    title: "The API Social Network",
+    alt: "A shared calander for the user to interact with friends and plan events.",
+    title: "Social Space Invaders",
+    description:
+      "This is a shared calander which allows a user to do a number of things. They can create an event for a day of the week, find and see local events in Denver, find and visit local Breweries, and save past events.",
+    appLink: "https://madrodgerflynn.github.io/socialCalander/",
   },
 ];
 
