@@ -10,7 +10,8 @@
   border: 7px inset var(--space);
   /* background-color: var(--mandarin); */
   font-family: "Play", sans-serif;
-  font-weight: 300;
+  font-weight: 700;
+  font-size: xx-large;
   color: var(--mandarin);
   background-color: var(--black);
   border-radius: 15%;

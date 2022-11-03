@@ -14,7 +14,7 @@ export default function Bio() {
             speed: 10,
             waitUntilVisible: true,
           }}
-          element={"p"}
+          // element={"p"}
         >
           My name is Tyler Anderson. I have always had an interest in all things
           computer related. I attempted to study computer science once I was in
@@ -27,6 +27,23 @@ export default function Bio() {
           looked back
         </TypeIt>
       </div>
+      {/* <TypeIt
+            getBeforeInit={(instance) => {
+              instance
+                .pause(500)
+                .type("After the bootcamp I have continued to code everyday and enjoyed every minute! Coding is another interactive outlet that allows me to be creative!")
+                .break()
+                .pause(500)
+                .break()
+                .pause(1500)
+                .type("My "other job is a metalsmith. I design")
+                .break()
+                .pause(700)
+                .type("Want to see it?");
+              return instance;
+            }}
+            element={"p"}
+          ></TypeIt> */}
       <Footer />
     </div>
   );

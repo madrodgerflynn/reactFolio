@@ -77,7 +77,7 @@ function Contact() {
           ></textarea>
         </div>
         <button className="submitBtn" type="submit">
-          Send the Email
+          Send It!
         </button>
       </form>
     </div>
