@@ -223,7 +223,12 @@ code {
   border-radius: 8%; */
 }
 @media screen and (max-width: 992px) {
-  #root {
+  #root,
+  .bioContainer,
+  .contactForm,
+  .stuffContainer,
+  .crt {
     width: 50rem;
+    height: auto;
   }
 }

@@ -41,8 +41,7 @@ export default function Bio() {
                 .pause(700)
                 .type("Want to see it?");
               return instance;
-            }}
-            element={"p"}
+         
           ></TypeIt> */}
       <Footer />
     </div>
