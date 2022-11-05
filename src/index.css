@@ -222,13 +222,23 @@ code {
   /* border: 10px groove var(--black);
   border-radius: 8%; */
 }
-@media screen and (min-aspect-ratio: 8/5) {
-  #root,
-  .bioContainer,
-  .contactForm,
-  .stuffContainer,
-  .crt {
+/* @media screen and (min-aspect-ratio: 8/5) {
+  #root {
     width: 50rem;
     height: auto;
   }
-}
+
+  .bioContainer {
+    width: 50%;
+    height: auto;
+  }
+  .contactForm,
+  .stuffContainer,
+  .crt,
+  .email,
+  .fullName,
+  .message {
+    width: 50%;
+    height: auto;
+  }
+} */

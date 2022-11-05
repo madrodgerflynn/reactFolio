@@ -20,7 +20,7 @@ h1 {
   /* background-color: var(--mandarin); */
   font-family: "Play", sans-serif;
   font-weight: 700;
-  font-size: x-large;
+  font-size: larger;
   color: var(--mandarin);
   background-color: var(--black);
   border-radius: 15%;
