@@ -8,14 +8,6 @@ export default function Bio() {
     <div className="stuffContainer">
       <div className="bioContainer">
         <h1>Welcome to my portfolio!</h1>
-        {/* <TypeIt
-          className="textWindow"
-          options={{
-            speed: 10,
-            waitUntilVisible: true,
-          }}
-          // element={"p"}
-        ></TypeIt> */}
         {/* Using TypeIt to create the illusion it is typing itself */}
         <TypeIt
           options={{
@@ -45,7 +37,7 @@ export default function Bio() {
               .break()
               .pause(200)
               .break()
-              .type("<span>My Skills</span>");
+              .type("My Skills");
             return instance;
           }}
         ></TypeIt>

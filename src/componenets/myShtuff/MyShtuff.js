@@ -66,11 +66,8 @@ function MyShtuff() {
           </a>
           <button className="galleryBtn" onClick={displayNextProject}>
             Next Project
-            {/* <i className="fa-solid fa-arrow-left"></i> */}
           </button>
         </div>
-        {/* <div className="buttonLocation"> */}
-        {/* </div> */}
       </div>
     </div>
   );

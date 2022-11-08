@@ -15,7 +15,7 @@ h2 {
 }
 .bioContainer {
   /* display: row; */
-  position: absolute;
+  /* position: absolute; */
   width: 90vw;
   height: 70vh;
   padding: 2rem;
@@ -31,6 +31,7 @@ h2 {
   align-items: center;
   overflow: auto;
 }
+
 @media screen and (max-width: 390px) {
   .bioContainer {
     width: 70%;
