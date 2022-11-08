@@ -47,39 +47,41 @@ function Contact() {
   }
   return (
     <div className="stuffContainer">
-      <form className="row contactForm" onSubmit={handleEvent}>
-        <div className="col nameInput">
-          <input
-            name="sender_name"
-            type="text"
-            className="form-control fullName"
-            placeholder="Full name"
-            onChange={updateInputState}
-          ></input>
-        </div>
-        <div className="col emailInput">
-          <input
-            name="sender_email"
-            type="text"
-            className="form-control email"
-            placeholder="Email"
-            onChange={updateInputState}
-          ></input>
-        </div>
-        <div className="messageInput">
-          <span className="input-group-text messageTitle">
-            Type Your Message Here
-          </span>
-          <textarea
-            name="message"
-            className="form-control message"
-            onChange={updateInputState}
-          ></textarea>
-        </div>
-        <button className="submitBtn" type="submit">
-          Send It!
-        </button>
-      </form>
+      <div className="border border-white m-auto col-9">
+        <form className="row contactForm" onSubmit={handleEvent}>
+          <div className="col nameInput">
+            <input
+              name="sender_name"
+              type="text"
+              className="form-control fullName"
+              placeholder="Full name"
+              onChange={updateInputState}
+            ></input>
+          </div>
+          <div className="col emailInput">
+            <input
+              name="sender_email"
+              type="text"
+              className="form-control email"
+              placeholder="Email"
+              onChange={updateInputState}
+            ></input>
+          </div>
+          <div className="messageInput">
+            <span className="input-group-text messageTitle">
+              Type Your Message Here
+            </span>
+            <textarea
+              name="message"
+              className="form-control message"
+              onChange={updateInputState}
+            ></textarea>
+          </div>
+          <button className="submitBtn" type="submit">
+            Send It!
+          </button>
+        </form>
+      </div>
     </div>
   );
 }

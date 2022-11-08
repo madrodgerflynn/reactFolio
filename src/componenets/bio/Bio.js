@@ -45,6 +45,7 @@ export default function Bio() {
           }}
         ></TypeIt>
       </div>
+      <h2>My Skills</h2>
       <Footer />
     </div>
   );
