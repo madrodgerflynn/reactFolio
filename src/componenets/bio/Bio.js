@@ -16,10 +16,11 @@ export default function Bio() {
           }}
           // element={"p"}
         ></TypeIt> */}
-
+        {/* Using TypeIt to create the illusion it is typing itself */}
         <TypeIt
           options={{
-            speed: 10,
+            speed: 20,
+            lifeLike: true,
           }}
           getBeforeInit={(instance) => {
             instance
@@ -40,12 +41,15 @@ export default function Bio() {
               .break()
               .type(
                 "My other job is a metalsmith. I design and create jewlery, mainly with scraps I find."
-              );
+              )
+              .break()
+              .pause(200)
+              .break()
+              .type("<span>My Skills</span>");
             return instance;
           }}
         ></TypeIt>
       </div>
-      <h2>My Skills</h2>
       <Footer />
     </div>
   );

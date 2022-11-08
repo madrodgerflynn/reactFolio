@@ -47,7 +47,7 @@ function Contact() {
   }
   return (
     <div className="stuffContainer">
-      <div className="border border-white m-auto col-9">
+      <div className="border">
         <form className="row contactForm" onSubmit={handleEvent}>
           <div className="col nameInput">
             <input

@@ -6,10 +6,19 @@
   align-items: center;
   width: 80vw;
   height: auto;
-  position: relative;
-  bottom: -8.5rem;
+  position: sticky;
+  top: 2rem;
   color: var(--red);
 }
 i {
-  font-size: xx-large;
+  font-size: 3rem;
+}
+@media screen and (max-width: 390px) {
+  .footerContainer {
+    width: 50%;
+  }
+  .i {
+    width: 50;
+    font-size: 1rem;
+  }
 }

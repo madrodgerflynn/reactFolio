@@ -4,6 +4,10 @@ h1 {
   display: flex;
   height: fit-content;
 }
+h2 {
+  display: flex;
+  height: fit-content;
+}
 .textWindow {
   display: flex;
   height: fit-content;
@@ -29,7 +33,7 @@ h1 {
 }
 @media screen and (max-width: 390px) {
   .bioContainer {
-    width: 50%;
+    width: 70%;
     font-size: 1rem;
   }
 }
