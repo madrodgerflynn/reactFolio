@@ -94,6 +94,13 @@
 @media screen and (max-width: 390px) {
   .contactForm {
     width: 50%;
+    /* margin-right: 1rem; */
     font-size: 1rem;
+  }
+  .contactContainer {
+    width: 50%;
+  }
+  .stuffContainer {
+    width: 80%;
   }
 }
