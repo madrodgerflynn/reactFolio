@@ -9,18 +9,23 @@
   position: absolute;
   top: 0;
   left: 0;
-  padding-top: 0.75rem;
+  padding-top: 0.15rem;
 }
 .navbar {
   display: flex;
   width: 40rem;
-  height: auto;
-  border: 7px groove var(--space);
+  position: sticky;
+  top: 0;
+  /* height: auto; */
+  border: 7px inset darkgrey;
   justify-content: space-around;
   font-family: "Press Start 2P", cursive;
-  background-color: var(--buff);
+  background-color: gray;
 }
 a {
+  display: flex;
   text-decoration: none;
   color: var(--black);
+  border: 4px outset rgb(129, 128, 128);
+  padding: 1px;
 }

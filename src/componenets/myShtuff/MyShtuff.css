@@ -23,9 +23,10 @@
   background: transparent;
 }
 .galleryBtn {
-  background-color: var(--lilac);
+  background-color: gray;
   float: right;
-  color: var(--red);
+  font-weight: 800;
+  color: var(--black);
   border-radius: 3%;
   border: 2px inset var(--red);
   /* position: absolute; */

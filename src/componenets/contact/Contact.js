@@ -2,6 +2,7 @@ import React, { useState } from "react";
 // import Email from "../Email";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+import SideBar from "../sideBar/SideBar.js";
 function Contact() {
   let [senderName, setSenderName] = useState("");
   let [senderEmail, setSenderEmail] = useState("");
@@ -80,6 +81,7 @@ function Contact() {
           Send It!
         </button>
       </form>
+      <SideBar />
     </div>
   );
 }
