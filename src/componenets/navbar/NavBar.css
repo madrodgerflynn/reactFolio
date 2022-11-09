@@ -29,3 +29,9 @@ a {
   border: 4px outset rgb(129, 128, 128);
   padding: 1px;
 }
+@media screen and (max-width: 390px) {
+  .navbar {
+    width: 85%;
+    font-size: 1rem;
+  }
+}
