@@ -7,7 +7,7 @@
   width: 80vw;
   height: auto;
   position: absolute;
-  bottom: 2rem;
+  bottom: 0.5rem;
   color: var(--red);
 }
 i {
