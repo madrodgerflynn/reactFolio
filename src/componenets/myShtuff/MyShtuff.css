@@ -15,11 +15,19 @@
   color: var(--mandarin);
   background-color: var(--black);
   border-radius: 15%;
-  align-items: center;
+  /* align-items: center; */
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
 }
 .galleryBtn {
   background-color: var(--lilac);
   float: right;
+  color: var(--red);
+  border-radius: 3%;
+  border: 2px inset var(--red);
   /* position: absolute; */
   /* right: 0; */
   top: 10px;
@@ -38,5 +46,11 @@
   width: 100vw;
 }
 .card-body {
-  margin-left: 6rem;
+  margin-left: 2rem;
+}
+@media screen and (max-width: 390px) {
+  .card {
+    width: 70%;
+    font-size: 1.25rem;
+  }
 }
