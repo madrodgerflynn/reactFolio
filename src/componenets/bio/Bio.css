@@ -29,12 +29,18 @@ h2 {
   background-color: var(--black);
   border-radius: 15%;
   align-items: center;
-  overflow: auto;
+  overflow: scroll;
 }
-
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
 @media screen and (max-width: 390px) {
-  .bioContainer {
+  /* .bioContainer {
     width: 70%;
     font-size: 1rem;
+  } */
+  .stuffContainer {
+    width: 70%;
   }
 }

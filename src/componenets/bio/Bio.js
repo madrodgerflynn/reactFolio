@@ -32,7 +32,7 @@ export default function Bio() {
               .pause(500)
               .break()
               .type(
-                "My other job is a metalsmith. I design and create jewlery, mainly with scraps I find."
+                "My other job is as a metalsmith. I design and create jewlery, mainly with scraps I find."
               )
               .break()
               .pause(200)

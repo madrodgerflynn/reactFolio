@@ -30,6 +30,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+  height: 100vh;
 }
 @keyframes flicker {
   0% {
@@ -216,9 +217,12 @@ code {
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
   /* height: 100vh; */
+  height: 100vh;
 }
 .crt {
   animation: textShadow 1.6s infinite;
+  height: 100vh;
+
   /* border: 10px groove var(--black);
   border-radius: 8%; */
 }
@@ -242,3 +246,6 @@ code {
     height: auto;
   }
 } */
+#root {
+  height: 100vh;
+}
