@@ -1,6 +1,7 @@
 @import "../../utils/colors.css";
 
 .footerContainer {
+  flex-wrap: wrap;
   display: flex;
   justify-content: space-around;
   align-items: center;
