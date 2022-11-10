@@ -1,9 +1,9 @@
 .sideBarContainer {
-  width: 1rem;
+  width: 4rem;
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  left: 5;
   background-color: transparent;
   padding-top: 2rem;
 }
@@ -11,6 +11,6 @@
   padding: 1rem 3rem 1rem 4rem;
   text-decoration: none;
   font-size: larger;
-  color: black;
+  color: rgb(154, 8, 8);
   display: block;
 }
