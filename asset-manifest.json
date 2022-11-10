@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/madrodgerflynn/reactFolio/static/css/main.e4fb7466.css",
-    "main.js": "/madrodgerflynn/reactFolio/static/js/main.c8602768.js",
-    "static/js/787.a2cb61a6.chunk.js": "/madrodgerflynn/reactFolio/static/js/787.a2cb61a6.chunk.js",
-    "index.html": "/madrodgerflynn/reactFolio/index.html",
-    "main.e4fb7466.css.map": "/madrodgerflynn/reactFolio/static/css/main.e4fb7466.css.map",
-    "main.c8602768.js.map": "/madrodgerflynn/reactFolio/static/js/main.c8602768.js.map",
-    "787.a2cb61a6.chunk.js.map": "/madrodgerflynn/reactFolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/static/css/main.e4fb7466.css",
+    "main.js": "/static/js/main.723d738a.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "index.html": "/index.html",
+    "main.e4fb7466.css.map": "/static/css/main.e4fb7466.css.map",
+    "main.723d738a.js.map": "/static/js/main.723d738a.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4fb7466.css",
-    "static/js/main.c8602768.js"
+    "static/js/main.723d738a.js"
   ]
 }
