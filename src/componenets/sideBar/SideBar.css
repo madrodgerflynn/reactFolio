@@ -1,16 +1,22 @@
 .sideBarContainer {
   width: 4rem;
-  position: relative;
+  height: 7rem;
+  flex-direction: column;
   z-index: 1;
   top: 0;
-  left: 1;
+
+  display: flex;
   background-color: transparent;
   padding-top: 2rem;
 }
 .sideBarContainer i {
-  padding: 1rem 3rem 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  right: 1;
   text-decoration: none;
   font-size: larger;
   color: rgb(154, 8, 8);
+
   display: block;
 }
