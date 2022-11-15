@@ -1,9 +1,9 @@
 .sideBarContainer {
   width: 4rem;
-  position: fixed;
+  position: relative;
   z-index: 1;
   top: 0;
-  left: 5;
+  left: 1;
   background-color: transparent;
   padding-top: 2rem;
 }
