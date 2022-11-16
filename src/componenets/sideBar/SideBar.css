@@ -1,5 +1,5 @@
 .sideBarContainer {
-  width: 4rem;
+  width: 3rem;
   height: 7rem;
   flex-direction: column;
   z-index: 1;
@@ -12,7 +12,7 @@
 .sideBarContainer i {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: 0.5rem;
   right: 1;
   text-decoration: none;
   font-size: larger;

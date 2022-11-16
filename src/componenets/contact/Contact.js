@@ -48,6 +48,9 @@ function Contact() {
   }
   return (
     <div className="stuffContainer">
+      <div className="sideBarContainer">
+        <SideBar />
+      </div>
       <form className="row contactForm" onSubmit={handleEvent}>
         <div className="col nameInput">
           <input
@@ -81,9 +84,6 @@ function Contact() {
           Send It!
         </button>
       </form>
-      <div className="sideBarContainer">
-        <SideBar />
-      </div>
     </div>
   );
 }
