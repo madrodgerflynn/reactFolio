@@ -81,7 +81,9 @@ function Contact() {
           Send It!
         </button>
       </form>
-      <SideBar />
+      <div className="sideBarContainer">
+        <SideBar />
+      </div>
     </div>
   );
 }
