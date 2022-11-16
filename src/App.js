@@ -14,6 +14,7 @@ function App() {
       <NavBar />
 
       <Routes>
+        <Route path="/reactFolio" element={<Bio />} />
         <Route path="/" element={<Bio />} />
         <Route path="/Bio" element={<Bio />} />
         <Route path="/Contact" element={<Contact />} />

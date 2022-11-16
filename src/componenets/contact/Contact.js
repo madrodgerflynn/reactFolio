@@ -48,9 +48,7 @@ function Contact() {
   }
   return (
     <div className="stuffContainer">
-      <div className="sideBarContainer">
-        <SideBar />
-      </div>
+      <SideBar />
       <form className="row contactForm" onSubmit={handleEvent}>
         <div className="col nameInput">
           <input
