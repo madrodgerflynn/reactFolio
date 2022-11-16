@@ -9,14 +9,15 @@
   top: 0;
   margin: -23px;
   display: flex;
-  background-color: transparent;
+
   padding-top: 2rem;
   color: red;
+  border: solid white;
 }
 .sideBarContainer i {
   flex-direction: block;
   padding: 1rem;
-
+  border: solid orangered;
   font-size: larger;
   color: rgb(154, 8, 8);
 }

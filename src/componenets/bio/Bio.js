@@ -11,7 +11,7 @@ export default function Bio() {
         {/* Using TypeIt to create the illusion it is typing itself */}
         <TypeIt
           options={{
-            speed: 20,
+            speed: 5,
             lifeLike: true,
           }}
           getBeforeInit={(instance) => {
@@ -32,7 +32,7 @@ export default function Bio() {
               .pause(500)
               .break()
               .type(
-                "My other job is as a metalsmith. I design and create jewlery, mainly with scraps I find."
+                "My other job is as a metalsmith. I design and create jewlery, mainly with metal scraps I find. I also love finding unique stones when I am out and about"
               )
               .break()
               .pause(200)
