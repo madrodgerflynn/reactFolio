@@ -12,12 +12,16 @@
 
   padding-top: 2rem;
   color: red;
-  border: solid white;
+  /* border: solid white; */
 }
-.sideBarContainer i {
+/* .sideBarContainer i {
   flex-direction: block;
   padding: 1rem;
   border: solid orangered;
   font-size: larger;
   color: rgb(154, 8, 8);
+} */
+.iconAnchor {
+  color: red;
+  padding: 1px;
 }
