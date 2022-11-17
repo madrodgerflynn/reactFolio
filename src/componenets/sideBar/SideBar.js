@@ -3,7 +3,8 @@ import { GoMarkGithub } from "react-icons/go";
 import { GoBroadcast } from "react-icons/go";
 import React, { useState } from "react";
 function SideBar() {
-  const [phoneNumber, setShowPhoneNumber] = useState(false);
+  const [showPhoneNumber, setShowPhoneNumber] = useState(false);
+  const onClick = () => setShowPhoneNumber(true);
 
   return (
     <div className="sideBarContainer">
@@ -15,15 +16,9 @@ function SideBar() {
       >
         <GoMarkGithub className="sideBarIcon" />
       </a>
-      <a
-        // need to add onClick event here
-
-        title="Phone Number"
-        onClick={setShowPhoneNumber}
-        className="iconAnchor"
-      >
+      <button title="Phone Number" className="iconAnchor">
         <GoBroadcast className="sideBarIcon" />
-      </a>
+      </button>
       {/* <i className={GoMarkGithub}></i>
       <i className={GoBroadcast}></i>
       <i className=""></i> */}
