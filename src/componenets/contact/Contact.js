@@ -82,6 +82,7 @@ function Contact() {
           Send It!
         </button>
       </form>
+      <div>{/* <Text /> */}</div>
     </div>
   );
 }

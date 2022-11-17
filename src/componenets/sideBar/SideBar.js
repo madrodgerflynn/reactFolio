@@ -16,13 +16,17 @@ function SideBar() {
       >
         <GoMarkGithub className="sideBarIcon" />
       </a>
-      <button title="Phone Number" className="iconAnchor">
-        <GoBroadcast className="sideBarIcon" />
-      </button>
+      <a>
+        <button onClick={onClick}>
+          {showPhoneNumber}
+          <GoBroadcast className="sideBarIcon" />
+        </button>
+      </a>
       {/* <i className={GoMarkGithub}></i>
       <i className={GoBroadcast}></i>
       <i className=""></i> */}
     </div>
   );
 }
+// const Text = <div>"303.386.5175"</div>;
 export default SideBar;
