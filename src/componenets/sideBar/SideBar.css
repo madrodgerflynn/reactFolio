@@ -35,5 +35,6 @@
 @media screen and (max-width: 390px) {
   .sideBarContainer {
     position: static;
+    left: 25px;
   }
 }
