@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import SideBar from "../sideBar/SideBar.js";
+import { showPhoneNumber } from "../sideBar/SideBar.js";
 function Contact() {
   let [senderName, setSenderName] = useState("");
   let [senderEmail, setSenderEmail] = useState("");
@@ -48,6 +49,7 @@ function Contact() {
   }
   return (
     <div className="stuffContainer">
+      <div className="phoneNumber">{showPhoneNumber}</div>
       <SideBar />
       <form className="row contactForm" onSubmit={handleEvent}>
         <div className="col nameInput">
@@ -82,7 +84,6 @@ function Contact() {
           Send It!
         </button>
       </form>
-      <div>{/* <Text /> */}</div>
     </div>
   );
 }

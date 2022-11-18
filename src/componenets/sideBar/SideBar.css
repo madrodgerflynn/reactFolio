@@ -32,3 +32,8 @@
   border: none;
   padding: 1px;
 }
+@media screen and (max-width: 390px) {
+  .sideBarContainer {
+    position: static;
+  }
+}
