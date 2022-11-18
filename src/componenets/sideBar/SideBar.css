@@ -24,4 +24,11 @@
 .iconAnchor {
   color: red;
   padding: 1px;
+  align-items: center;
+}
+.phoneButton {
+  background-color: transparent;
+  color: red;
+  border: none;
+  padding: 1px;
 }

@@ -17,7 +17,7 @@ function SideBar() {
         <GoMarkGithub className="sideBarIcon" />
       </a>
       <a>
-        <button onClick={onClick}>
+        <button className="phoneButton" onClick={onClick}>
           {showPhoneNumber}
           <GoBroadcast className="sideBarIcon" />
         </button>
