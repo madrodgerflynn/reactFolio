@@ -2,6 +2,7 @@ import "./SideBar.css";
 import { GoMarkGithub } from "react-icons/go";
 import { GoBroadcast } from "react-icons/go";
 import React, { useState } from "react";
+
 function SideBar() {
   const [showPhoneNumber, setShowPhoneNumber] = useState(false);
   const onClick = () => setShowPhoneNumber(!showPhoneNumber);
@@ -18,7 +19,6 @@ function SideBar() {
       </a>
       <a>
         <button className="phoneButton" onClick={onClick}>
-          {showPhoneNumber ? <Text /> : null}
           <GoBroadcast className="sideBarIcon" />
         </button>
       </a>
