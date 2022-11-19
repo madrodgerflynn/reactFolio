@@ -6,7 +6,7 @@ import React, { useState } from "react";
 function SideBar() {
   const [showPhoneNumber, setShowPhoneNumber] = useState(false);
   const onClick = () => setShowPhoneNumber(!showPhoneNumber);
-
+  let phoneNumber = { "303.386.5175": showPhoneNumber };
   return (
     <div className="sideBarContainer">
       <a
@@ -18,7 +18,7 @@ function SideBar() {
         <GoMarkGithub className="sideBarIcon" />
       </a>
       <a>
-        <button className="phoneButton" onClick={onClick}>
+        <button className="phoneButton" onClick={onClick} name="phone_number">
           <GoBroadcast className="sideBarIcon" />
         </button>
       </a>
