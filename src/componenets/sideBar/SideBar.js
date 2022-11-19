@@ -28,5 +28,5 @@ function SideBar() {
     </div>
   );
 }
-export const showPhoneNumber = "303.386.5175";
+// export const showPhoneNumber = "303.386.5175";
 export default SideBar;
