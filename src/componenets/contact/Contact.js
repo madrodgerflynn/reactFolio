@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
 import SideBar from "../sideBar/SideBar.js";
-// import { showPhoneNumber } from "../sideBar/SideBar.js";
+import { showPhoneNumber } from "../sideBar/SideBar.js";
 function Contact() {
   let [senderName, setSenderName] = useState("");
   let [senderEmail, setSenderEmail] = useState("");
