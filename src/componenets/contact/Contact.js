@@ -49,7 +49,7 @@ function Contact() {
   }
   return (
     <div className="stuffContainer">
-      <div className="phoneNumber">{showPhoneNumber}</div>
+      <div className="phoneNumber"></div>
       <SideBar />
       <form className="row contactForm" onSubmit={handleEvent}>
         <div className="col nameInput">

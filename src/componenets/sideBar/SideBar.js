@@ -28,5 +28,4 @@ function SideBar() {
     </div>
   );
 }
-export { showPhoneNumber };
 export default SideBar;
