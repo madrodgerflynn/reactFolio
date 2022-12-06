@@ -9,6 +9,11 @@ function NavBar() {
   return (
     <>
       <div className="navBar-container">
+        <ul className="extraButtons">
+          <li className="button1"></li>
+          <li className="button2"></li>
+          <li className="button3"></li>
+        </ul>
         <div className="navbar">
           <Link to={{ pathname: "/Bio" }}>About Me</Link>
           <Link to={{ pathname: "/MyShtuff" }}>My Shtuff</Link>
