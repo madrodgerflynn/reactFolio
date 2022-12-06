@@ -29,11 +29,21 @@ a {
   border: 4px outset rgb(129, 128, 128);
   padding: 1px;
 }
-.extraButtons {
+.extraButton {
   display: flex;
   flex-direction: row;
   position: relative;
-  left: 20px;
+  right: 78px;
+  border: 3px inset darkgray;
+  background-color: gray;
+}
+.otherButton{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 78px;
+  border: 3px inset darkgray;
+  background-color: gray;
 }
 @media screen and (max-width: 390px) {
   .navbar {

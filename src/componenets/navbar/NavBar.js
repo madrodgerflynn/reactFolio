@@ -9,16 +9,17 @@ function NavBar() {
   return (
     <>
       <div className="navBar-container">
-        <ul className="extraButtons">
+        <ul className="extraButton">
           <li className="button1"></li>
-          <li className="button2"></li>
-          <li className="button3"></li>
         </ul>
         <div className="navbar">
           <Link to={{ pathname: "/Bio" }}>About Me</Link>
           <Link to={{ pathname: "/MyShtuff" }}>My Shtuff</Link>
           <Link to={{ pathname: "/Contact" }}>Contact Me</Link>
         </div>
+        <ul className="otherButton">
+          <li className="button2"></li>
+        </ul>
       </div>
     </>
   );
