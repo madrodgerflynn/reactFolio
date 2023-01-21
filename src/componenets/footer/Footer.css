@@ -1,0 +1,25 @@
+@import "../../utils/colors.css";
+
+.footerContainer {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: auto;
+  position: absolute;
+  bottom: 0.5rem;
+  color: var(--red);
+}
+i {
+  font-size: 3rem;
+}
+@media screen and (max-width: 390px) {
+  .footerContainer {
+    width: 50%;
+  }
+  .i {
+    width: 50;
+    font-size: 1rem;
+  }
+}

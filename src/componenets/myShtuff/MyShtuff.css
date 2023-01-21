@@ -1,0 +1,57 @@
+@import "../../utils/colors.css";
+
+.card {
+  display: flex;
+  /* position: absolute; */
+  width: 90vw;
+  height: 70vh;
+  padding: 3rem;
+  margin: 2rem;
+  border: 7px inset var(--space);
+  /* background-color: var(--mandarin); */
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+  color: var(--mandarin);
+  background-color: var(--black);
+  border-radius: 15%;
+  /* align-items: center; */
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+.galleryBtn {
+  background-color: gray;
+  float: right;
+  font-weight: 800;
+  color: var(--black);
+  border-radius: 3%;
+  border: 2px inset var(--red);
+  /* position: absolute; */
+  /* right: 0; */
+  top: 10px;
+}
+.projectLinks {
+  position: absolute;
+  right: 20;
+  bottom: 10;
+  color: var(--red);
+}
+.stuffContainer {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.card-body {
+  margin-left: 2rem;
+}
+@media screen and (max-width: 390px) {
+  .card {
+    width: 70%;
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,46 @@
+@import "../../utils/colors.css";
+
+h1 {
+  display: flex;
+  height: fit-content;
+}
+h2 {
+  display: flex;
+  height: fit-content;
+}
+.textWindow {
+  display: flex;
+  height: fit-content;
+  top: 30%;
+}
+.bioContainer {
+  /* display: row; */
+  /* position: absolute; */
+  width: 90vw;
+  height: 70vh;
+  padding: 3rem;
+  margin: 2rem;
+  border: 7px inset var(--space);
+  /* background-color: var(--mandarin); */
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: larger;
+  color: var(--mandarin);
+  background-color: var(--black);
+  border-radius: 15%;
+  align-items: center;
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+@media screen and (max-width: 390px) {
+  /* .bioContainer {
+    width: 70%;
+    font-size: 1rem;
+  } */
+  .stuffContainer {
+    width: 70%;
+  }
+}

@@ -1,0 +1,53 @@
+@import "../../utils/colors.css";
+
+.navBar-container {
+  /* background-color: var(--buff); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 0.15rem;
+}
+.navbar {
+  display: flex;
+  width: 40rem;
+  position: sticky;
+  top: 0;
+  /* height: auto; */
+  border: 7px inset darkgrey;
+  justify-content: space-around;
+  font-family: "Press Start 2P", cursive;
+  background-color: gray;
+}
+a {
+  display: flex;
+  text-decoration: none;
+  color: var(--black);
+  border: 4px outset rgb(129, 128, 128);
+  padding: 1px;
+}
+.extraButton {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  right: 78px;
+  border: 3px inset darkgray;
+  background-color: gray;
+}
+.otherButton{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 78px;
+  border: 3px inset darkgray;
+  background-color: gray;
+}
+@media screen and (max-width: 390px) {
+  .navbar {
+    width: 85%;
+    font-size: 1rem;
+  }
+}
